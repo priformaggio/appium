@@ -1,0 +1,11 @@
+#wait	=	Selenium::WebDriver::Wait.new	:timeout	=>	20
+#wait.until	{	driver.find_element(element).displayed?	}
+#clicar	no	elemento
+#driver.find_element(element).click
+#esconder	teclado
+#hide_keyboard#verificar	se	o	teclado	esta	presente	na	tela
+#is_keyboard_shown	==	true
+#preencher	campos
+#driver.find_element(element).send_keys(text)
+#botãoo	voltar
+#back
