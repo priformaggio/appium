@@ -13,6 +13,7 @@ end
 #base_emulators	=	YAML.load_file('/home/priscila/appium/features/support/config/emulators.yml')['emulators'][$emulators]
 
 
+
 #Executar	o	Driver	Appium:
 #Appium::Driver.new(base_emulators)
 #Appium.promote_appium_methods	AppiumWorld
@@ -22,4 +23,11 @@ Appium.promote_appium_methods AppiumWorld
 
 World do
   AppiumWorld.new
+end
+
+CONFIG_DATA = YAML.load_file('./features/support/config/config_data.yml')
+
+
+def get_input_data(node)
+    CONFIG_DATA[node]
 end

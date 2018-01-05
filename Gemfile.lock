@@ -55,6 +55,7 @@ GEM
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
     tomlrb (1.2.6)
+    yml_reader (0.7)
 
 PLATFORMS
   ruby
@@ -64,6 +65,7 @@ DEPENDENCIES
   cucumber
   rspec
   selenium-webdriver
+  yml_reader
 
 BUNDLED WITH
    1.16.0.pre.3
